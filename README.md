@@ -34,9 +34,28 @@ given an array like this:
     
 You get out an object like this:
     
-    {"data":[["0","1","2"],["3","4","2"],["5","1","2"],["6","1","7"],["8","4","7"],["9","4","7"],["10","4","11"],["12","1","11"],["13","4","14"],["15","1","16"],["17","1","16"],["18","1","19"],["20","1","19"],["21","1","22"],["23","1","24"],["25","4","26"],["27","1","28"]],
-    "map":["Black Sun","fiction","Edward Abbey","Desert Solitaire","nonfiction","The Monkey Wrench Gang","Cosmic Banditos","Allan Weisbecker","In Search of Captain Zero","Why Can't You Get Along With Anyone?","The Cosmic Connection","Carl Sagan","Contact","The Unbearable Lightness of Being","Milan Kundera","Valis","Philip K Dick","Do Androids Dream of Electric Sheep?","Neuromancer","William Gibson","Idoru","Elric","Michael Moorcock","Cerebus","Dave Sim","Go Rin No Sho","Miyamato Musashi","Brave New World","Aldous Huxley"],
-    "keys":["title","genre","author"]}
+    {
+        "data":[
+            ["0","1","2"],["3","4","2"],["5","1","2"],["6","1","7"],["8","4","7"],
+            ["9","4","7"],["10","4","11"],["12","1","11"],["13","4","14"],
+            ["15","1","16"],["17","1","16"],["18","1","19"],["20","1","19"],
+            ["21","1","22"],["23","1","24"],["25","4","26"],["27","1","28"]
+        ],
+        "map":[
+            "Black Sun","fiction","Edward Abbey","Desert Solitaire","nonfiction",
+            "The Monkey Wrench Gang","Cosmic Banditos","Allan Weisbecker",
+            "In Search of Captain Zero","Why Can't You Get Along With Anyone?",
+            "The Cosmic Connection","Carl Sagan","Contact","The Unbearable Lightness of Being",
+            "Milan Kundera","Valis","Philip K Dick","Do Androids Dream of Electric Sheep?",
+            "Neuromancer","William Gibson","Idoru","Elric","Michael Moorcock","Cerebus",
+            "Dave Sim","Go Rin No Sho","Miyamato Musashi","Brave New World","Aldous Huxley"
+        ],
+        "keys":[
+            "title",
+            "genre",
+            "author"
+        ]
+    }
     
 Then to go back in the other direction:
 

@@ -1,5 +1,10 @@
 index-compressor.js
 ==============
+
+[![NPM version](https://img.shields.io/npm/v/index-compressor.svg)]()
+[![npm](https://img.shields.io/npm/dt/index-compressor.svg)]()
+[![Travis](https://img.shields.io/travis/khrome/index-compressor.svg)]()
+
 An NPM for compressing arrays of objects containing many repeated values... the sort of thing you might import from a CSV.
 
 Usage
